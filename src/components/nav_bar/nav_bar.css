@@ -1,0 +1,24 @@
+.avatar{
+    height: 50px;
+    width: 50px;
+}
+.navbar_top {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar_top li {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_top li a{
+    color: black;
+}
+

@@ -1,0 +1,21 @@
+.avatar{
+    height: 50px;
+    width: 50px;
+    background-color:rgb(160, 155, 155) ;
+}
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0px;
+}
+li a{
+    color: white;
+}
