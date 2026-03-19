@@ -1,0 +1,16 @@
+.hr-style {
+  border: none;
+  height: 2px;
+  width: 100%;            /* optional, sets length */
+  background-color: gray; /* use contrasting color */
+  margin: 20px 0;
+}
+
+h4, p{
+  margin-bottom: 8px;
+}
+
+/* p{
+  margin-bottom: 8px;
+  font-weight: 100;
+} */

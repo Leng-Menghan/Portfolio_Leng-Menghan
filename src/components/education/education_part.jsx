@@ -2,6 +2,7 @@ import {
     VerticalTimeline,
     VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+import { Link } from "react-router-dom";
 import "react-vertical-timeline-component/style.min.css";
 import './education_part.css'
 
@@ -42,10 +43,10 @@ const EducationPart = () => {
                         <i className="fa-solid fa-location-dot" style={{ width: "20px" }}></i>
                         PhnomPenh, Cambodia
                     </p>
-                    <a href="" style={{ textDecoration: "None" }} className='d-flex align-items-center mt-2'>
+                    <Link to ="/university" style={{ textDecoration: "None" }} className='d-flex align-items-center mt-2'>
                         <p className="m-0">View more</p>
                         <i class="fa-solid fa-circle-chevron-right"></i>
-                    </a>
+                    </Link>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     iconStyle={{ background: "grey", width: "20px", height: "20px", marginLeft: "-10px", boxShadow: "none" }}
@@ -66,10 +67,10 @@ const EducationPart = () => {
                         <i className="fa-solid fa-location-dot" style={{ width: "20px" }}></i>
                         Kandal, Cambodia
                     </p>
-                    <a href="" style={{ textDecoration: "None" }} className='d-flex align-items-center mt-2'>
+                    <Link to ="/highschool" style={{ textDecoration: "None" }} className='d-flex align-items-center mt-2'>
                         <p className="m-0">View more</p>
                         <i class="fa-solid fa-circle-chevron-right"></i>
-                    </a>
+                    </Link>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     iconStyle={{ background: "grey", width: "20px", height: "20px", marginLeft: "-10px", boxShadow: "none" }}
@@ -90,10 +91,10 @@ const EducationPart = () => {
                         <i className="fa-solid fa-location-dot" style={{ width: "20px" }}></i>
                         Kandal, Cambodia
                     </p>
-                    <a href="" style={{ textDecoration: "None" }} className='d-flex align-items-center mt-2'>
+                    <Link to ="/primaryschool" style={{ textDecoration: "None" }} className='d-flex align-items-center mt-2'>
                         <p className="m-0">View more</p>
                         <i class="fa-solid fa-circle-chevron-right"></i>
-                    </a>
+                    </Link>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>
