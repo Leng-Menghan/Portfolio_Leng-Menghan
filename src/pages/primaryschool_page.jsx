@@ -25,7 +25,7 @@ function PrimaryschoolPage() {
                 <h4 >2011 - 2017 </h4>
                 <div className="d-flex w-50 align-items-center mt-5">
                     <hr className="hr-style" />
-                    <img src="/assets/highschool_sign.png" alt="" style={{ width: "30px", height: "30px", margin: "0 20px" }} />
+                    <img src="/assets/primary_sign.png" alt="" style={{ width: "30px", height: "30px", margin: "0 20px" }} />
                     <hr className="hr-style" />
                 </div>
                 <p className='w-50 mx-auto text-center mt-3'>
